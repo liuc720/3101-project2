@@ -13,4 +13,8 @@ export default function (eleventyConfig) {
 	});
 
 	eleventyConfig.addGlobalData("layout", "base.html");
+	
+	return {
+		pathPrefix: "/3101-project2/"
+	};
 };
