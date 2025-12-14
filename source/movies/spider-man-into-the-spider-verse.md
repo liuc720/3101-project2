@@ -5,7 +5,7 @@ director: "Peter Ramsey"
 year: 2018
 genre: "Family"
 rating: 9.6
-poster: "/images/spider-man.jpg"
+poster: "/3101-project2/images/spider-man.jpg"
 duration: "116 min"
 ---
 

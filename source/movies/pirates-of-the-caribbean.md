@@ -5,7 +5,7 @@ director: "Gore Verbinski"
 year: 2003
 genre: "Adventure"
 rating: 9.2
-poster: "/images/pirates.jpg"
+poster: "/3101-project2/images/pirates.jpg"
 duration: "143 min"
 ---
 

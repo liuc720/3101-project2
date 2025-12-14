@@ -5,7 +5,7 @@ director: "Ang Lee"
 year: 2012
 genre: "Adventure"
 rating: 9.5
-poster: "/images/life-of-pi.jpg"
+poster: "/3101-project2/images/life-of-pi.jpg"
 duration: "127 min"
 ---
 

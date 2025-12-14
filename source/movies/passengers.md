@@ -5,7 +5,7 @@ director: "Morten Tyldum"
 year: 2016
 genre: "Sci-fi"
 rating: 9.0
-poster: "/images/passengers.jpg"
+poster: "/3101-project2/images/passengers.jpg"
 duration: "116 min"
 ---
 

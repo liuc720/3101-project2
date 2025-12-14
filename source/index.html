@@ -14,15 +14,16 @@ title: Home
   <button class="filter-btn" data-filter="Adventure">Adventure</button>
   <button class="filter-btn" data-filter="Sci-fi">Sci-fi</button>
   <button class="filter-btn" data-filter="Family">Family</button>
+  <button class="filter-btn" data-filter="Animation">Animation</button>
 </div>
 
 <!-- Movie grid -->
 <div class="movie-grid">
   {% for movie in collections.movies %}
   <article class="movie-card" data-genre="{{ movie.data.genre }}">
-    <a href="{{ movie.url }}">
+    <a href="{{ movie.url | url }}">
       <div class="movie-poster">
-        <img src="{{ movie.data.poster }}" alt="{{ movie.data.title }}">
+        <img src="{{ movie.data.poster | url }}" alt="{{ movie.data.title }}">
         <div class="rating-badge">{{ movie.data.rating }}</div>
       </div>
       

@@ -5,7 +5,7 @@ director: "James Cameron"
 year: 2009
 genre: "Sci-fi"
 rating: 9.5
-poster: "/images/avatar.jpg"
+poster: "/3101-project2/images/avatar.jpg"
 duration: "162 min"
 ---
 
