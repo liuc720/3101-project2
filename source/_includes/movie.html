@@ -1,0 +1,31 @@
+---
+layout: base.html
+---
+
+<article class="movie-detail">
+  <div class="movie-header">
+    <div class="movie-poster">
+      <img src="{{ poster }}" alt="{{ title }} poster">
+    </div>
+    
+    <div class="movie-info">
+      <h1>{{ title }}</h1>
+      
+      <div class="movie-meta">
+        <p><strong>Director:</strong> {{ director }}</p>
+        <p><strong>Year:</strong> {{ year }}</p>
+        <p><strong>Genre:</strong> <span class="badge">{{ genre }}</span></p>
+        <p><strong>Duration:</strong> {{ duration }}</p>
+        <p><strong>My Rating:</strong> <span class="rating">{{ rating }}/10</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="movie-content">
+    {{ content }}
+  </div>
+
+  <div class="back-link">
+    <a href="/">← Back to all movies</a>
+  </div>
+</article>

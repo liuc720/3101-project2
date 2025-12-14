@@ -1,9 +1,40 @@
 ---
-title: Assignment 2 Template
+title: Home
 ---
-<h1>Assignment 2 Template</h1>
 
-<p>
-  This is a main page for your collection site. You can edit
-  its contents and add new pages to this folder.
-</p>
+<div class="hero">
+  <h2>Welcome to My Movie Collection 🍿</h2>
+  <p>My favorite movies of all time</p>
+</div>
+
+<!-- Filter buttons -->
+<div class="filters">
+  <h3>Filter by genre:</h3>
+  <button class="filter-btn active" data-filter="all">All ({{ collections.movies.length }})</button>
+  <button class="filter-btn" data-filter="Adventure">Adventure</button>
+  <button class="filter-btn" data-filter="Sci-fi">Sci-fi</button>
+  <button class="filter-btn" data-filter="Family">Family</button>
+</div>
+
+<!-- Movie grid -->
+<div class="movie-grid">
+  {% for movie in collections.movies %}
+  <article class="movie-card" data-genre="{{ movie.data.genre }}">
+    <a href="{{ movie.url }}">
+      <div class="movie-poster">
+        <img src="{{ movie.data.poster }}" alt="{{ movie.data.title }}">
+        <div class="rating-badge">{{ movie.data.rating }}</div>
+      </div>
+      
+      <div class="movie-info">
+        <h3>{{ movie.data.title }}</h3>
+        <p class="director">{{ movie.data.director }}</p>
+        <div class="meta">
+          <span class="badge">{{ movie.data.genre }}</span>
+          <span class="year">{{ movie.data.year }}</span>
+        </div>
+      </div>
+    </a>
+  </article>
+  {% endfor %}
+</div>
