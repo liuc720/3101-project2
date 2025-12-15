@@ -5,7 +5,7 @@ director: "Robert Zemeckis"
 year: 1994
 genre: "Family"
 rating: 9.8
-poster: "/3101-project2/images/forrest-gump.jpg"
+poster: "images/forrest-gump.jpg"
 duration: "142 min"
 ---
 

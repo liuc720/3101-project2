@@ -5,7 +5,7 @@ director: "Adrian Molina"
 year: 2017
 genre: "Family"
 rating: 9.7
-poster: "/3101-project2/images/coco.jpg"
+poster: "images/coco.jpg"
 duration: "105 min"
 ---
 

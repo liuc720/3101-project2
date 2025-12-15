@@ -5,7 +5,7 @@ director: "Christopher Nolan"
 year: 2014
 genre: "Sci-fi"
 rating: 9.4
-poster: "/3101-project2/images/interstellar.jpg"
+poster: "images/interstellar.jpg"
 duration: "169 min"
 ---
 

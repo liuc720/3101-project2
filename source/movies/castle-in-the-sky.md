@@ -5,7 +5,7 @@ director: "Hayao Miyazaki"
 year: 1986
 genre: "Adventure"
 rating: 9.3
-poster: "/3101-project2/images/castle-in-the-sky.jpg"
+poster: "images/castle-in-the-sky.jpg"
 duration: "124 min"
 ---
 
